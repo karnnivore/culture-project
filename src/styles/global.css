@@ -1,0 +1,92 @@
+html, body {
+    font-family: 'futura-pt';
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+    margin:0;
+}
+
+div {
+    display: block;
+}
+
+.outernav{
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    text-transform: uppercase;
+    padding: 48px 56px 48px 56px;
+}
+
+.outernav-top{
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    position: relative;
+    right: 0;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+}
+
+.outernav-img{
+    max-width: 400px;
+}
+.outernav-weather {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding-left: 32px;
+}
+
+.outernav-tr{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.outernav-weather-item{
+    display: block;
+    padding-left: 10px;
+}
+
+.temp{
+    font-weight: 600;
+    padding-left: 6px;
+}
+.index {
+    background: #f0d6cc;
+    color: #1e1e1e;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: initial;
+}
+
+.index_content {
+    display: block;
+}
+
+.index_link {
+    font-size: 6vmin;
+    font-weight: 800;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-stroke-color: rgb(30,30,30);
+}
