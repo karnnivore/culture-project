@@ -15,6 +15,10 @@ a {
     color: #1e1e1e;
 }
 
+ul {
+    list-style: none;
+}
+
 .outernav{
     letter-spacing: 2px;
     font-size: 12px;
@@ -88,6 +92,52 @@ a {
     transform-origin: bottom left;
 }
 
+.outernav-br{
+    box-sizing: border-box;
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    margin-right: 2vw;
+    position: absolute;    
+    bottom: 0px;
+    right: 0px;
+}
+
+.outernav-br ul{
+    transform: rotate(-180deg);
+    margin: 0;
+}
+
+.outernav-share{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.outernav-share-item{
+    max-width: .9em;
+    margin-right: 2em;
+    margin-bottom: .1em;
+}
+
+.outernav-share-item img{
+    transform: rotate(90deg);
+    height: auto;
+    width: 100%;
+}
+
+.outernav-share-item-text::before{
+    content: "";
+    background: #1e1e1e;
+    display: inline-flex;
+    margin-right: 2em;
+    height: 1px;
+    width: 50px;
+    vertical-align: super;
+}
+
+.git {
+    max-height: 1em;
+}
 .temp{
     font-weight: 600;
     padding-left: 6px;

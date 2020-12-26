@@ -42,7 +42,26 @@ const IndexPage = () => {
             <a href="https://www.nickchinsen.com">nickchinsen.com</a>
           </div>
           <div class="outernav-br">
-            
+            <ul class="outernav-share">
+              <li class="outernav-share-item">
+                <a href="mailto:nicholaschinsen@gmail.com">
+                  <img src="/mail.svg" alt="mail"/>
+                </a>
+              </li>
+              <li class="outernav-share-item">
+                <a href="https://linkedin.com/in/nick-chinsen">
+                  <img src="/linkedin.svg" alt="linkedin"/>
+                </a>
+              </li>
+              <li class="outernav-share-item">
+                <a href="https://github.com/karnnivore">
+                  <img src="/github.svg" alt="github" class="git"/>
+                </a>
+              </li>
+              <li class="outernav-share-item-text">
+                Learn more
+              </li>
+            </ul>
           </div>
         </div>
       </div>
