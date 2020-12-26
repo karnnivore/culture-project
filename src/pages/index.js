@@ -68,16 +68,32 @@ const IndexPage = () => {
     <div class="index">
       <div class="index_content">
         <div class="index_link">
-          Why I'm doing this
+          <a href="https://nickchinsen.com">
+            <span class="hoverFill a1" data-fill="Why I'm doing this" data-section="01">
+              Why I'm doing this
+            </span>
+          </a>
+        </div>
+        <div class="index_link" >
+          <a href="/culture/why">
+            <span class="hoverFill a1" data-fill="Values I live by" data-section="02">
+              Values I live by
+            </span>
+          </a>
         </div>
         <div class="index_link">
-          Values I live by
+          <a href="/culture/why">
+            <span class="hoverFill a1" data-fill="How I make things" data-section="03">
+              How I make things
+            </span>
+          </a>
         </div>
         <div class="index_link">
-          How I make things
-        </div>
-        <div class="index_link">
-          FAQ
+          <a href="/culture/why">
+            <span class="hoverFill a1" data-fill="FAQ" data-section="04">
+              FAQ
+            </span>
+          </a>
         </div>
       </div>
     </div>

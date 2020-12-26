@@ -23,7 +23,6 @@ ul {
     letter-spacing: 2px;
     font-size: 12px;
     position: fixed;
-    z-index: 999;
     left: 0;
     right: 0;
     display: flex;
@@ -135,6 +134,71 @@ ul {
     vertical-align: super;
 }
 
+/*Main Link styling*/
+.index_link{
+    box-sizing: border-box;
+    margin-bottom: -24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -24px;
+    position: relative;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+.index_link a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: initial;
+    background-size:auto;
+    cursor: pointer;
+    
+    position: relative;
+}
+.hoverfill{
+    cursor: pointer;
+}
+.a1{
+    text-align: left;
+    margin-top: auto;
+    display: inline-block;
+    line-height: 1.5;
+    position: relative;
+    pointer-events: none;
+    -webkit-text-stroke: 0.02em rgb(30,30,30);
+    color: transparent;
+}
+.a1::before{
+    position: absolute;
+    display: inline;
+    white-space: nowrap;
+    background-attachment: scroll;
+    top: 0px;
+    left: 0px;
+    content: attr(data-fill);
+    width: 0px;
+    background-image: none;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.4, 1) 0s;
+    background: text black;
+    -webkit-text-stroke: 0px;
+}
+.a1::after{
+    text-align: left;
+    margin-top: auto;
+    display: inline-block;
+    -webkit-text-fill-color: black;
+    content: attr(data-section);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 0.4em;
+    transform: translate(-2em, 0.75em);
+    vertical-align: top;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
 .git {
     max-height: 1em;
 }
