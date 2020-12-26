@@ -1,13 +1,18 @@
 html, body {
     font-family: 'futura-pt';
     font-size: 1.8rem;
-    line-height: 1.4rem;
+    line-height: 1.4;
     box-sizing: border-box;
     margin:0;
 }
 
 div {
     display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
 }
 
 .outernav{
@@ -23,6 +28,7 @@ div {
     height: 100vh;
     text-transform: uppercase;
     padding: 48px 56px 48px 56px;
+    box-sizing: border-box;
 }
 
 .outernav-top{
@@ -58,6 +64,28 @@ div {
 .outernav-weather-item{
     display: block;
     padding-left: 10px;
+}
+
+.outernav-bottom{
+    bottom: 0px;
+    box-sizing: border-box;
+    color: black;
+    font-weight: 400;
+    right: 0px;
+    position: relative;
+    text-align: center;
+
+}
+
+.outernav-bl{
+    bottom: 0px;
+    box-sizing: border-box;
+    margin-left: 2vw;
+    pointer-events: auto;
+    position: absolute;
+    text-size-adjust: 100%;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
 }
 
 .temp{

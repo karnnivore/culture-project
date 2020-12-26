@@ -38,7 +38,12 @@ const IndexPage = () => {
           </div>
         </div>
         <div class="outernav-bottom">
-
+          <div class="outernav-bl">
+            <a href="https://www.nickchinsen.com">nickchinsen.com</a>
+          </div>
+          <div class="outernav-br">
+            
+          </div>
         </div>
       </div>
     <div class="index">
