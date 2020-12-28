@@ -159,6 +159,26 @@ ul {
 .hoverfill{
     cursor: pointer;
 }
+.index_link .outer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transform: translateX(-100.5%);
+}
+.index_link .inner {
+    display: inline-block;
+    transform: translateX(100%);
+}
+.index_link a .outer,
+.index_link a .inner {
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.4, 1) 0s;
+  
+}
+.index_link a:hover .outer,
+.index_link a:hover .inner {
+  transform: none;
+}
 .a1{
     text-align: left;
     margin-top: auto;
@@ -169,7 +189,7 @@ ul {
     -webkit-text-stroke: 0.02em rgb(30,30,30);
     color: transparent;
 }
-.a1::before{
+.index_link a::before{
     position: absolute;
     display: inline;
     white-space: nowrap;
@@ -184,7 +204,7 @@ ul {
     background: text black;
     -webkit-text-stroke: 0px;
 }
-.a1::after{
+.index_link a::after{
     text-align: left;
     margin-top: auto;
     display: inline-block;
@@ -198,6 +218,8 @@ ul {
     vertical-align: top;
     letter-spacing: 2px;
     box-sizing: border-box;
+    height: 32px;
+    width: 32px;
 }
 .git {
     max-height: 1em;

@@ -68,30 +68,34 @@ const IndexPage = () => {
     <div class="index">
       <div class="index_content">
         <div class="index_link">
-          <a href="https://nickchinsen.com">
-            <span class="hoverFill a1" data-fill="Why I'm doing this" data-section="01">
-              Why I'm doing this
+          <a href="/culture/why" data-section='01'>
+            Why I'm doing this
+            <span class="hoverFill a1 outer" data-fill="Why I'm doing this" data-section="01">
+              <span class="inner">Why I'm doing this</span>
             </span>
           </a>
         </div>
         <div class="index_link" >
-          <a href="/culture/why">
-            <span class="hoverFill a1" data-fill="Values I live by" data-section="02">
-              Values I live by
+          <a href="/culture/why" data-section='02'>
+            Values I live by
+            <span class="hoverFill a1 outer" data-fill="Values I live by" data-section="02">
+              <span class="inner">Values I live by</span>
             </span>
           </a>
         </div>
         <div class="index_link">
-          <a href="/culture/why">
-            <span class="hoverFill a1" data-fill="How I make things" data-section="03">
-              How I make things
+          <a href="/culture/why" data-section='03'>
+            How I make things
+            <span class="hoverFill a1 outer" data-fill="How I make things" data-section="03">
+              <span class="inner">How I make things</span>
             </span>
           </a>
         </div>
         <div class="index_link">
-          <a href="/culture/why">
-            <span class="hoverFill a1" data-fill="FAQ" data-section="04">
-              FAQ
+          <a href="/culture/why" data-section='04'>
+            FAQ
+            <span class="hoverFill a1 outer" data-fill="FAQ" data-section="04">
+              <span class="inner">FAQ</span>
             </span>
           </a>
         </div>
