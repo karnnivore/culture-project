@@ -245,6 +245,7 @@ ul {
 
 .index_content {
     display: block;
+    z-index: 90;
 }
 
 .index_link {
